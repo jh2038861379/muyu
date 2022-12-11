@@ -14,6 +14,13 @@ $(".woodenfish .click").click(function (e) {
 });
 
 
+function run() {
+    audio_play($(".woodenfish").attr("data"))
+    Data_control("click")
+    animation()
+    animation_text()
+}
+
 function startAnimate() {
     $(".count").css("transform", "scale(1.1)");
     $(".woodenfish").css('transform', 'scale(.99)');
