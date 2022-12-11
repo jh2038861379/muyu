@@ -22,7 +22,7 @@ function run() {
 
 function startAnimate() {
     $(".count").css("transform", "scale(1.5)");
-    $(".woodenfish").css('transform', 'scale(.99)');
+    $(".woodenfish").css('transform', 'scale(.90)');
 }
 
 function initAnimate() {
