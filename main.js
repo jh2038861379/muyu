@@ -15,10 +15,9 @@ $(".woodenfish .click").click(function (e) {
 
 
 function run() {
-    audio_play($(".woodenfish").attr("data"))
-    Data_control("click")
-    animation()
-    animation_text()
+    startAnimate()
+    initAnimate() 
+    counter()
 }
 
 function startAnimate() {
