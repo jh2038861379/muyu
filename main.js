@@ -9,6 +9,11 @@ var bgmId = 0;
 let count = 0;
 let countFlag = false;
 
+$(".woodenfish .click").click(function (e) {
+    run()
+});
+
+
 function startAnimate() {
     $(".count").css("transform", "scale(1.1)");
     $(".woodenfish").css('transform', 'scale(.99)');
