@@ -34,6 +34,17 @@ function counter() {
     }
 }
 
+var auto_run_data = true;
+var auto_run_speed = 50;
+function auto_run() {
+    setTimeout(() => {
+        if(auto_run_data != false) {
+            auto_run()
+        }
+        run()
+    }, auto_run_speed);
+}
+
 $(document).keydown(function (e) {
     if (e.key == " " && e) {
         if (!countFlag) {
