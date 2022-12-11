@@ -21,7 +21,7 @@ function run() {
 }
 
 function startAnimate() {
-    $(".count").css("transform", "scale(1.1)");
+    $(".count").css("transform", "scale(1.5)");
     $(".woodenfish").css('transform', 'scale(.99)');
 }
 
