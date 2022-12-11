@@ -13,6 +13,9 @@ $(".woodenfish .click").click(function (e) {
     run()
 });
 
+$(".auto").click(function (e) { 
+    auto_run()
+});
 
 function run() {
     startAnimate()
